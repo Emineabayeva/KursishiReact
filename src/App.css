@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+/*? header */
+
+header {
+  background-color: #0056B3;
+  padding: 18px;
+
+}
+
+.header img {
+  margin-top: 14px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 45px;
+  font-size: 17px;
+}
+.header .header-links a:hover{
+  color:  #499df6e0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header .header-btns button {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  margin-right: 20px;
+  background-color:#0056B3 ;
+  transition: .7s;
+  font-size: 17px;
+}
+
+
+.header .login-btn:hover {
+  background-color: #499df6e0;
+  color: #fff;
+}
+
+.header .fa-bars {
+  color: #808882;
+  font-size: 30px;
+  margin-right: 35px;
+}
+
+/* ?header */
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.header-btns {
+  position: relative;
+}
+
+.dropdown-menu {
+  top: 100%;
+  left: 0;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 150px;
+  padding: 0;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #499df6e0;
+  color: #fff;
+  border: 1px solid #499df6e0;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*? Haqqimizda */
+.haqqimizda{
+  padding: 80px 0;
+}
+.haqqimizda-left h2{
+color: #007bff;
+margin: 20px 0;
+}
+.haqqimizda-left article{
+  font-size: 22px;
+  margin: 30px 0;
+  }
+/*? Haqqimizda */
+
+/*? Haqimizda  */
+.meqsed{
+  padding: 0px  0 80px 0;
+}
+.meqsed-right{
+  margin-left: 40px ;
+}
+.meqsed-right article{
+  font-size: 22px;
+  margin: 30px 0;
+}
+.meqsed-right h3{
+  color: #007bff;
+margin: 20px 0;
+}
+/* ?Haqimizda  */
+
+
+/* ?HaqDovlet */
+.haqDovlet{
+  padding: 90px 0;
+}
+.haqDovlet-left h3{
+  color: #007bff;
+margin: 20px 0;
+}
+.haqDovlet-left article{
+  font-size: 22px;
+  margin: 30px 0;
+}
+.haqDovlet-left article span{
+  color: #358fef;
+}
+/* ?HaqDovlet */
+
+/* ?HaqBank */
+.haqBank{
+  padding: 80px 0;
+}
+.haqBank-right {
+  margin-left: 50px;
+}
+.haqBank-right h3{
+  color: #007bff;
+margin: 20px 0;
+}
+.haqBank-right article{
+  font-size: 22px;
+  margin: 30px 0;
+}
+/* ?HaqBank */
+
+/*? HaqSahibkar */
+.haqSahibkar{
+  padding: 90px 0;
+}
+.haqSahibkar-left h3{
+  color: #007bff;
+  margin: 20px 0;
+}
+.haqSahibkar-left article{
+  font-size: 22px;
+  margin: 30px 0;
+}
+/*? HaqSahibkar */
+
+/*? HaqSlide */
+.swiper-img{
+  background-color: #7eb4ed ;
+}
+.swiper-img .swiper-slide img{
+  height: 270px;
+}
+/*? HaqSlide */
+
+
+/*? Xidmet1 */
+.xidmet{
+  padding: 50px 0;
+}
+.xidmet-start h3{
+  color: #007bff;
+  margin: 10px 0;
+  text-align: center;
+}
+.xidmet-start p{
+  font-size: 18px;
+}
+.xidmet-center h3{
+  color: #007bff;
+  margin: 10px 0;
+  text-align: center;
+}
+.xidmet-center p{
+  font-size: 18px;
+}
+.xidmet-end h3{
+  color: #007bff;
+  margin: 10px 0;
+  text-align: center;
+}
+.xidmet-end p{
+  font-size: 18px;
+}
+/*? Xidmet1 */
+
+/*? terafdas1 */
+.terafdas{
+  padding: 50px 0;
+}
+.terafdas-start h3{
+  color: #007bff;
+  margin: 20px 0;
+}
+.terafdas-start p{
+  font-size: 18px;
+}.terafdas-center h3{
+  color: #007bff;
+  margin: 20px 0;
+}
+.terafdas-center p{
+font-size: 18px;
+}
+.terafdas-end h3{
+  color: #007bff;
+  margin: 20px 0;
+}
+.terafdas-end p{
+  font-size: 18px;
+}
+/*? terafdas1 */
+
+
+
+
+/*? sahibkar1 */
+
+
+
+
+
+
+form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  appearance: none; /* Varsayılan brauzer görünüşünü deaktiv edir */
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+option {
+  padding: 5px;
+}
+
+
+
+
+
+/*? sahibkar1 */
+
+/*? bank forum */
+
+.bank-form {
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+  box-shadow: 0 0 3px rgba(41, 128, 185, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1f6691;
+}
+
+button:active {
+  background-color: #154b6e;
+}
